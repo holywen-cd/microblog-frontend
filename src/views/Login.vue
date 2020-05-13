@@ -62,6 +62,7 @@ export default {
           this.$router.push('/')
         }
       })
+      window.location.reload(false);
     }
   }
 }
